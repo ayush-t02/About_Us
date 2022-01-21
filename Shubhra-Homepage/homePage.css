@@ -1,0 +1,594 @@
+.reach_out_row {
+    margin: 7% 5%;
+}
+
+
+/* .reach_out_form {
+    width: 75%;
+} */
+
+.form-floating>.form-control {
+    height: unset;
+    line-height: normal;
+}
+
+.reach_out_form_label {
+    text-align: left;
+    /* font: normal normal normal 17px/26px Poppins; */
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    color: #BDBEBE;
+    opacity: 1;
+}
+
+.reach_out_form_inputs {
+    background-color: #FFFFFF;
+    border: 1px solid #70707091;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.sendbtn {
+    background-color: #00446F;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    font-size: 1.2rem;
+}
+
+.sendbtn:hover {
+    background-color: rgba(0, 68, 111, 0.8);
+}
+
+.column1 {
+    margin: auto;
+    /* margin-left: 5%; */
+    padding-right: 3%;
+}
+
+.column2 {
+    margin: auto;
+    padding-left: 3%;
+}
+
+#reach_out_head1 {
+    text-align: left;
+    /* font: normal normal 600 30px/37px Montserrat; */
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 1.8rem;
+    letter-spacing: 0px;
+    color: #00446F;
+    opacity: 1;
+    margin-bottom: 5%;
+}
+
+#reach_out_head2 {
+    text-align: left;
+    /* font: normal normal 500 22px/27px Montserrat; */
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    color: #444646;
+    opacity: 1;
+    margin: 5% auto;
+    padding-bottom: 2%;
+}
+
+.join {
+    border: 1px solid #707070;
+    background-color: rgba(0, 68, 111, 0.2);
+}
+
+#join_head1 {
+    text-align: center;
+    /* font: normal normal bold 32px/39px Montserrat; */
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 0px;
+    color: #00446F;
+    opacity: 1;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+#join_head2 {
+    text-align: center;
+    /* font: normal normal 500 22px/27px Montserrat; */
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    color: #000000BA;
+    opacity: 1;
+    margin-top: 3%;
+    margin-bottom: 4.5%;
+}
+
+.getstarted {
+    background-color: #00446F;
+    border: 1px solid #00446F;
+    border-radius: 8px;
+    opacity: 1;
+    padding: 1% 4%;
+    font-size: 1.2rem;
+}
+
+.getstarted:hover {
+    background-color: rgba(0, 68, 111, 0.8);
+}
+
+.getstarted-div {
+    padding-bottom: 4%;
+}
+
+.know_more {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 0 15%;
+}
+
+.know_more_head {
+    margin-bottom: 5%;
+}
+
+#want_to_know {
+    text-align: left;
+    /* font: normal normal bold 30px/37px Montserrat; */
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.8rem;
+    letter-spacing: 0px;
+    color: #00446F;
+    opacity: 1;
+}
+
+#contact_us {
+    text-align: center;
+    /* font: normal normal normal 20px/27px Segoe UI; */
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    color: #00446F;
+    opacity: 1;
+}
+
+.faqs {
+    text-align: left;
+    /* font: normal normal 500 22px/27px Montserrat; */
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0px;
+    color: #444646;
+    opacity: 1;
+    margin-left: 2%;
+}
+
+#ans1,
+#ans2,
+#ans3,
+#ans4 {
+    display: none;
+}
+
+#show-ans1,
+#show-ans2,
+#show-ans3,
+#show-ans4 {
+    transition: transform 0.5s;
+}
+
+.ans {
+    text-align: left;
+    /* font: normal normal normal 15px/20px Segoe UI; */
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 0.9rem;
+    letter-spacing: 0px;
+    color: #444646;
+    opacity: 1;
+    margin-left: 1%;
+}
+
+.backedby {
+    background-color: rgba(230, 230, 230, 0.2);
+}
+
+#backed_by {
+    text-align: center;
+    /* font: normal normal bold 32px/39px Montserrat; */
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 5% auto;
+    padding-top: 5%;
+}
+
+.vitlogo {
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-bottom: 7%;
+}
+
+.pcimg {
+    background: transparent 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.footer {
+    background-color: rgba(242, 242, 242, 1);
+    padding: 7% 10%;
+    height: max-content;
+    width: 100%;
+}
+
+.footer-row {
+    padding-bottom: 5%;
+}
+
+#conected {
+    text-align: left;
+    /* font: normal normal 600 38px/47px Montserrat; */
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 2.5rem;
+    letter-spacing: 0px;
+    color: #676D6D;
+    opacity: 1;
+    padding-bottom: 2%;
+}
+
+#conected-text {
+    text-align: left;
+    /* font: normal normal normal 13px/17px Segoe UI; */
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 0.8rem;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+    padding-right: 25%;
+}
+
+.footer-icon-row {
+    padding: 3% 0;
+}
+
+.footer-icon {
+    color: #676D6D;
+    opacity: 1;
+}
+
+.footer-head {
+    text-align: left;
+    /* font: normal normal normal 18px/22px Montserrat; */
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 1.2rem;
+    letter-spacing: 0px;
+    color: #676D6D;
+    opacity: 1;
+    padding-bottom: 5%;
+}
+
+ul {
+    list-style: none;
+    padding: 0!important;
+}
+
+.footer-list-col {
+    padding-right: 5%;
+}
+
+.footer-list-items {
+    text-align: left;
+    /* font: normal normal normal 11px/15px Segoe UI; */
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 0.8rem;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+    padding: 5% 0;
+}
+
+.copyright {
+    padding-bottom: 2%;
+    text-align: center;
+    /* font: normal normal normal 13px/17px Segoe UI; */
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+}
+
+@media screen and (max-width: 992px) {
+    .pcimg {
+        display: none;
+    }
+    .column2 {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1180px) and (min-width: 992px) {
+    .pcimg {
+        width: 90%;
+    }
+    .column2 {
+        padding: 0;
+    }
+    .footer-list-col {
+        padding-right: 2.5%;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .pcimg {
+        width: 85%;
+        margin-top: 7%;
+    }
+    .footer-icon-row {
+        padding-bottom: 5%;
+    }
+    .column1 {
+        padding-right: 0;
+    }
+    .column2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .ans {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
+    .pcimg {
+        width: 85%;
+        margin-top: 7%;
+    }
+    #join_head1 {
+        font-size: 1.5rem;
+    }
+    #join_head2 {
+        font-size: 1rem;
+    }
+    .getstarted {
+        font-size: 1rem;
+    }
+    #want_to_know {
+        font-size: 1.3rem;
+    }
+    #contact_us {
+        font-size: 1.1rem;
+    }
+    .faqs {
+        font-size: 0.9rem;
+    }
+    .ans {
+        font-size: 0.6rem;
+    }
+    #conected {
+        font-size: 2rem;
+    }
+    #conected-text {
+        font-size: 0.9rem;
+    }
+    .footer-head {
+        font-size: 1.2rem;
+        padding-bottom: 0;
+    }
+    .footer-list-items {
+        font-size: 0.8rem;
+        padding: 1% 0;
+    }
+    .footer-icon-row {
+        padding-bottom: 7%;
+    }
+    .copyright {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #reach_out_head1 {
+        font-size: 1.3rem;
+    }
+    #reach_out_head2 {
+        font-size: 1rem;
+    }
+    .reach_out_form_label {
+        font-size: 0.8rem;
+    }
+    .sendbtn {
+        font-size: 0.9rem;
+    }
+    .pcimg {
+        width: 75%;
+        margin-top: 6%;
+    }
+    #join_head1 {
+        font-size: 1.3rem;
+    }
+    #join_head2 {
+        font-size: 0.85rem;
+    }
+    .getstarted {
+        font-size: 0.85rem;
+    }
+    #want_to_know {
+        font-size: 1.1rem;
+    }
+    #contact_us {
+        font-size: 0.75rem;
+    }
+    .faqs {
+        font-size: 0.8rem;
+    }
+    .ans {
+        font-size: 0.5rem;
+    }
+    #conected {
+        font-size: 2rem;
+    }
+    #conected-text {
+        font-size: 0.8rem;
+    }
+    .footer-head {
+        font-size: 0.9rem;
+        padding-bottom: 0;
+    }
+    .footer-list-items {
+        font-size: 0.8rem;
+        padding: 1% 0;
+    }
+    .footer-icon-row {
+        padding-bottom: 7%;
+    }
+    .copyright {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #reach_out_head1 {
+        font-size: 1rem;
+    }
+    #reach_out_head2 {
+        font-size: 0.8rem;
+    }
+    .reach_out_form_label {
+        font-size: 0.7rem;
+    }
+    .sendbtn {
+        font-size: 0.7rem;
+    }
+    .pcimg {
+        width: 75%;
+        margin-top: 6%;
+    }
+    #join_head1 {
+        font-size: 1rem;
+    }
+    #join_head2 {
+        font-size: 0.7rem;
+    }
+    .getstarted {
+        font-size: 0.7rem;
+    }
+    #want_to_know {
+        font-size: 0.9rem;
+    }
+    #contact_us {
+        font-size: 0.6rem;
+    }
+    .faqs {
+        font-size: 0.6rem;
+    }
+    .ans {
+        font-size: 0.75em;
+    }
+    #backed_by {
+        font-size: 1.2rem;
+    }
+    .vitlogo {
+        width: 35%;
+    }
+    #conected {
+        font-size: 1.5rem;
+    }
+    #conected-text {
+        font-size: 0.5rem;
+    }
+    .footer-head {
+        font-size: 0.75rem;
+        padding-bottom: 0;
+    }
+    .footer-list-items {
+        font-size: 0.5rem;
+    }
+    .footer-icon-row {
+        padding-bottom: 7%;
+    }
+    .copyright {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #reach_out_head1 {
+        font-size: 0.8rem;
+    }
+    #reach_out_head2 {
+        font-size: 0.6rem;
+    }
+    .reach_out_form_label {
+        font-size: 0.5rem;
+    }
+    .sendbtn {
+        font-size: 0.6rem;
+    }
+    .pcimg {
+        width: 75%;
+        margin-top: 6%;
+    }
+    #join_head1 {
+        font-size: 0.9rem;
+    }
+    #join_head2 {
+        font-size: 0.6rem;
+    }
+    .getstarted {
+        font-size: 0.6rem;
+    }
+    #want_to_know {
+        font-size: 0.75rem;
+    }
+    #contact_us {
+        font-size: 0.5rem;
+    }
+    .faqs {
+        font-size: 0.5rem;
+    }
+    .ans {
+        font-size: 0.7em;
+    }
+    #backed_by {
+        font-size: 1rem;
+    }
+    .vitlogo {
+        width: 35%;
+    }
+    #conected {
+        font-size: 1.5rem;
+    }
+    #conected-text {
+        font-size: 0.5rem;
+    }
+    .footer-head {
+        font-size: 0.75rem;
+        padding-bottom: 4%;
+    }
+    .footer-list-items {
+        font-size: 0.5rem;
+    }
+    .footer-icon-row {
+        padding-bottom: 7%;
+    }
+    .copyright {
+        font-size: 0.6rem;
+    }
+}
