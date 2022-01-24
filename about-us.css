@@ -388,6 +388,7 @@
     .navbar_main {
         flex-direction: column;
         align-items: flex-start;
+        gap: 0;
     }
     .toggle-button {
         display: flex;
@@ -511,7 +512,7 @@
         height: 40vh;
     }
     .myteam {
-        height: 50vh;
+        height: max-content;
     }
     .cards {
         display: flex;
